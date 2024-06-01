@@ -1,0 +1,129 @@
+accordingPathdir: false
+onlyAkm: false
+next_path: path5
+pose0:
+  map_x: 1.733206033706665
+  map_y: 51.30708694458008
+  heading: 90.0657861813223
+  vel: 0.2
+  caption: ""
+pose1:
+  map_x: 1.743393898010254
+  map_y: 51.68111419677734
+  heading: 84.16538671669187
+  vel: 0.2
+  caption: ""
+pose2:
+  map_x: 1.760910987854004
+  map_y: 52.10956573486328
+  heading: 83.7064465747011
+  vel: 0.2
+  caption: ""
+pose3:
+  map_x: 1.760910987854004
+  map_y: 52.05956573486328
+  heading: 83.7064465747011
+  vel: 0.2
+  caption: ""
+pose4:
+  map_x: 1.760910987854004
+  map_y: 52.05956573486328
+  heading: 26.85640338547004
+  vel: 0.2
+  caption: ""
+pose5:
+  map_x: 2.240644931793213
+  map_y: 52.49868011474609
+  heading: 26.475141618872
+  vel: 0.2
+  caption: ""
+pose6:
+  map_x: 2.499677419662476
+  map_y: 52.6627311706543
+  heading: 30.98176518090585
+  vel: 0.2
+  caption: ""
+pose7:
+  map_x: 2.869908809661865
+  map_y: 52.91803359985352
+  heading: 43.46395310371476
+  vel: 0.2
+  caption: ""
+pose8:
+  map_x: 3.144689559936523
+  map_y: 53.28593902587891
+  heading: 52.62242444353657
+  vel: 0.2
+  caption: ""
+pose9:
+  map_x: 3.350170612335205
+  map_y: 53.42464462280273
+  heading: 42.58224307306592
+  vel: 0.2
+  caption: ""
+pose10:
+  map_x: 3.345720767974854
+  map_y: 53.42294708251953
+  heading: 42.51493929967651
+  vel: 0.2
+  caption: ""
+pose11:
+  map_x: 3.62109375
+  map_y: 53.60424362182617
+  heading: 15.86461821081948
+  vel: 0.2
+  caption: ""
+pose12:
+  map_x: 3.997818231582642
+  map_y: 53.71867248535156
+  heading: -4.039651029043862
+  vel: 0.2
+  caption: ""
+pose13:
+  map_x: 4.56533670425415
+  map_y: 53.72817138671875
+  heading: -3.820485133212345
+  vel: 0.2
+  caption: a
+pose14:
+  map_x: 4.926973819732666
+  map_y: 53.69978668212891
+  heading: -2.017196195255439
+  vel: 0.2
+  caption: ""
+pose15:
+  map_x: 5.432590484619141
+  map_y: 53.63563674926758
+  heading: -5.375021313673055
+  vel: 0.2
+  caption: ""
+pose16:
+  map_x: 5.915700912475586
+  map_y: 53.65975860595703
+  heading: -4.410343305574277
+  vel: 0.2
+  caption: ""
+pose17:
+  map_x: 6.382254123687744
+  map_y: 53.64794631958008
+  heading: -3.968678988724204
+  vel: 0.2
+  caption: ""
+pose18:
+  map_x: 6.793296813964844
+  map_y: 53.68009948730469
+  heading: -3.737369016548405
+  vel: 0.2
+  caption: ""
+pose19:
+  map_x: 7.532635688781738
+  map_y: 53.66532516479492
+  heading: 0.8600385993222927
+  vel: 0.2
+  caption: ""
+pose20:
+  map_x: 8.684371948242188
+  map_y: 53.6819953918457
+  heading: -2.029318718558341
+  vel: 0.2
+  caption: ""

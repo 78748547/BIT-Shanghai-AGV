@@ -1,0 +1,42 @@
+mqtt:
+  client:
+    protocol: 4 # MQTTv311
+  connection:
+    host: broker.emqx.io #192.168.3.119 #192.168.119.146 #localhost
+    port: 1883
+    keepalive: 60
+  private_path: device/001
+serializer: json:dumps #bixu dakai
+deserializer: json:loads #bixu dakai
+bridge:
+  - factory: mqtt_bridge.bridge:RosToMqttBridge
+    msg_type: std_msgs.msg:String
+    topic_from: /echo #ros 发布节点
+    topic_to: mq1 #MQTT 订阅节点
+  - factory: mqtt_bridge.bridge:MqttToRosBridge
+    msg_type: std_msgs.msg:String
+    topic_from: mq2 #MQTT发布节点
+    topic_to: /back #ros订阅节点
+
+  - factory: mqtt_bridge.bridge:RosToMqttBridge
+    msg_type: geometry_msgs.msg:PointStamped
+    topic_from: /echo1 #ros 发布节点
+    topic_to: mq3 #MQTT 订阅节点
+  - factory: mqtt_bridge.bridge:MqttToRosBridge
+    msg_type: geometry_msgs.msg:PointStamped
+    topic_from: mq4 #MQTT发布节点
+    topic_to: /back1 #ros订阅节点
+
+  - factory: mqtt_bridge.bridge:RosToMqttBridge
+    msg_type: gps.msg:MyGPS_msg
+    topic_from: /echo2 #ros 发布节点
+    topic_to: mq5 #MQTT 订阅节点
+  # - factory: mqtt_bridge.bridge:MqttToRosBridge
+  #   msg_type: geometry_msgs.msg:PointStamped
+  #   topic_from: mq6 #MQTT发布节点
+  #   topic_to: /back2 #ros订阅节点
+
+    factory: mqtt_bridge.bridge:RosToMqttBridge
+    msg_type: std_msgs.msg:Float32MultiArray
+    topic_from: /echo3 #ros 发布节点
+    topic_to: mq6 #MQTT 订阅节点

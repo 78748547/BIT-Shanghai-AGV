@@ -1,0 +1,38 @@
+mqtt:
+  client:
+    protocol: 4 # MQTTv311
+  connection:
+    host: broker.emqx.io #192.168.3.119 #192.168.119.146 #localhost
+    port: 1883
+    keepalive: 60
+  private_path: device/001
+serializer: json:dumps #bixu dakai
+deserializer: json:loads #bixu dakai
+bridge:
+  # ping pong
+  - factory: mqtt_bridge.bridge:RosToMqttBridge
+    msg_type: std_msgs.msg:Bool
+    topic_from: /ping
+    topic_to: rping
+  - factory: mqtt_bridge.bridge:MqttToRosBridge
+    msg_type: std_msgs.msg:Bool
+    topic_from: qping
+    topic_to: /pong
+  # echo back
+  - factory: mqtt_bridge.bridge:RosToMqttBridge
+    msg_type: std_msgs.msg:String
+    topic_from: /echo #ros 发布节点
+    topic_to: rrrecho #MQTT 订阅节点
+  - factory: mqtt_bridge.bridge:MqttToRosBridge
+    msg_type: std_msgs.msg:String
+    topic_from: qecho #MQTT发布节点
+    topic_to: /back #ros订阅节点
+  # private path
+  - factory: mqtt_bridge.bridge:RosToMqttBridge
+    msg_type: std_msgs.msg:String
+    topic_from: /private/echo
+    topic_to: ~/echo
+  - factory: mqtt_bridge.bridge:MqttToRosBridge
+    msg_type: std_msgs.msg:String
+    topic_from: ~/echo
+    topic_to: /private/back

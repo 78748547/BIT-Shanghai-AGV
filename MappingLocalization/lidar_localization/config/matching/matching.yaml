@@ -1,0 +1,35 @@
+map_path: /home/bit/bit_agv_ws/map/baogang.pcd
+registration_method: NDT
+frame_filter: voxel_filter
+box_filter_size: [-80.0, 80.0, -80.0, 80.0, -80.0, 80.0]
+local_map_filter: voxel_filter
+global_map_filter: voxel_filter
+NDT:
+  res: 1.0
+  step_size: 0.1
+  trans_eps: 0.01
+  max_iter: 30
+voxel_filter:
+  global_map:
+    leaf_size: [0.3, 0.3, 0.3]
+  local_map:
+    leaf_size: [0.001, 0.001, 0.001]
+  frame:
+    leaf_size: [0.45, 0.45, 0.45]
+polygons:
+  range1:
+    p1: [760, -200]
+    p2: [620, 500]
+    p3: [-596, 165]
+    p4: [-593, -2703]
+needFixInitial: true
+InitialPose:
+  - [0.9998731, 0.01590938, -0.0007893163, 0.2397068]
+  - [-0.01590048, 0.9998212, 0.01023814, -0.03032799]
+  - [0.0009520578, -0.01022429, 0.9999472, 0.0224431]
+  - [0, 0, 0, 1]
+unitPose:
+  - [1, 0, 0, 0]
+  - [0, 1, 0, 0]
+  - [0, 0, 1, 0]
+  - [0, 0, 0, 1]
