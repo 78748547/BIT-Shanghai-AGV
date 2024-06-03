@@ -33,10 +33,12 @@ pose4:
   caption: ""
 pose5:
   map_x: 1.042531371116638
-  map_y: 1.249668717384338
+  map_y: 1.509668717384338
   heading: 91.02427118100964
   vel: 0.3
-  caption: ""
+  caption: "A001"
+  action0: ["act0", -3, -42, 5]
+  action1: ["act1", 0, 0, 1] 
 pose6:
   map_x: 1.054387211799622
   map_y: 2.491928815841675
@@ -48,7 +50,9 @@ pose7:
   map_y: 2.886682271957397
   heading: 79.76894512280829
   vel: 0.3
-  caption: ""
+  caption: "A002"
+  action0: ["act0", 0, -64, 5]
+  action1: ["act1", 0, 0, 1] 
 pose8:
   map_x: 1.150634407997131
   map_y: 3.23758339881897
@@ -63,16 +67,20 @@ pose9:
   caption: ""
 pose10:
   map_x: 1.387102484703064
-  map_y: 4.290093898773193
+  map_y: 4.090093898773193
   heading: 83.1586423324049
   vel: 0.3
-  caption: ""
+  caption: "A003"
+  action0: ["act0", 0, -53, 5]
+  action1: ["act1", 0, 0, 1] 
 pose11:
   map_x: 1.42712140083313
-  map_y: 5.252200126647949
+  map_y: 5.262200126647949
   heading: 87.7049328125272
   vel: 0.3
-  caption: ""
+  caption: "A004"
+  action0: ["act0", 0, -55, 5]
+  action1: ["act1", 0, 0, 1] 
 pose12:
   map_x: 1.419286847114563
   map_y: 5.832512855529785
@@ -84,7 +92,9 @@ pose13:
   map_y: 6.723963260650635
   heading: 87.98322082581436
   vel: 0.3
-  caption: ""
+  caption: "A005"
+  action0: ["act0", 0, -59, 5]
+  action1: ["act1", 0, 0, 1] 
 pose14:
   map_x: 1.466658711433411
   map_y: 7.344980716705322
@@ -93,10 +103,12 @@ pose14:
   caption: ""
 pose15:
   map_x: 1.496451735496521
-  map_y: 7.851570129394531
+  map_y: 7.751570129394531
   heading: 88.26454933575603
   vel: 0.3
-  caption: ""
+  caption: "A006"
+  action0: ["act0", 0, -58, 5]
+  action1: ["act1", 0, 0, 1]
 pose16:
   map_x: 1.523494720458984
   map_y: 8.587038040161133
@@ -104,6 +116,14 @@ pose16:
   vel: 0.3
   caption: ""
 pose17:
+  map_x: 1.46977961063385
+  map_y: 9.002823638916016
+  heading: 88.23701001302254
+  vel: 0.3
+  caption: "A007"
+  action0: ["act0", 0, -56, 5]
+  action1: ["act1", 0, 0, 1]
+pose18:
   map_x: 1.46977961063385
   map_y: 9.452823638916016
   heading: 88.23701001302254
