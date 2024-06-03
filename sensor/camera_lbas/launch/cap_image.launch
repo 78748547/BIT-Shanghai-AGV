@@ -4,7 +4,7 @@
     	<param name="if_auto" value="false" type="bool"/>
         <param name="if_resize" value="false" type="bool"/>
         <param name="push_flag" value="false" type="bool"/>
-        <param name="exp_time" value="20000.0" type="double"/>
+        <param name="exp_time" value="500000.0" type="double"/>
         <param name="ip" value="192.168.4.201" type="string"/> 
         <param name="pubtopic_name" value="$(arg img_topic)" type="string"/>
         <param name="display" value="0" type="int"/>  
