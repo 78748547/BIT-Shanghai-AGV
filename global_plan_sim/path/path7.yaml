@@ -132,6 +132,9 @@ pose21:
   heading: 92.84276017372747
   vel: 0.2
   caption: ""
+  caption: "A0048"
+  action0: ["act0", 0, -73, 5]
+  action1: ["act1", 0, 0, 1]
 pose22:
   map_x: 1.310135245323181
   map_y: -3.269817113876343
@@ -143,7 +146,9 @@ pose23:
   map_y: -2.813952922821045
   heading: 87.58623687443884
   vel: 0.2
-  caption: ""
+  caption: "A0049"
+  action0: ["act0", 2, -58, 5]
+  action1: ["act1", 0, 0, 1]
 pose24:
   map_x: 1.300383687019348
   map_y: -2.309102058410645
