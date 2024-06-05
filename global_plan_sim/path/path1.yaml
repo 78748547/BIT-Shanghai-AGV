@@ -2,32 +2,32 @@ accordingPathdir: false
 onlyAkm: false
 next_path: path2
 pose0:
-  map_x: -0.3150765299797058
-  map_y: 0.7089639902114868
+  map_x: -0.1
+  map_y: 0.83
   heading: 179.5384715200287
   vel: 0.3
-  caption: ""
+  caption: HOME
 pose1:
-  map_x: -0.1391150057315826
-  map_y: 0.6950814127922058
+  map_x: 0.1
+  map_y: 0.83
   heading: 179.678062372826
   vel: 0.3
   caption: ""
 pose2:
   map_x: 0.5240992307662964
-  map_y: 0.7142879962921143
+  map_y: 0.83
   heading: 179.5728203895827
   vel: 0.3
   caption: ""
 pose3:
-  map_x: 1.112961292266846
-  map_y: 0.7246445417404175
+  map_x: 1.063402771949768
+  map_y: 0.8
   heading: 179.3301052157489
   vel: 0.3
   caption: ""
 pose4:
   map_x: 1.063402771949768
-  map_y: 0.6918912529945374
+  map_y: 0.8
   heading: 88.67837744431669
   vel: 0.3
   caption: ""

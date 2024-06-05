@@ -106,7 +106,7 @@ pose16:
   map_y: 19.57050132751465
   heading: 87.1265098946557
   vel: 0.3
-  caption: "A0010"
+  caption: "A010"
   action0: ["act0", 0, -64, 5]
   action1: ["act1", 0, 0, 1]
 pose17:
@@ -120,7 +120,7 @@ pose18:
   map_y: 21.05316543579102
   heading: 86.86516317902188
   vel: 0.3
-  caption: "A0011"
+  caption: "A011"
   action0: ["act0", 0, -57, 5]
   action1: ["act1", 0, 0, 1]
 pose19:
@@ -134,7 +134,7 @@ pose20:
   map_y: 22.47476959228516
   heading: 86.62411882124098
   vel: 0.3
-  caption: "A0012"
+  caption: "A012"
   action0: ["act0", -1, -53, 5]
   action1: ["act1", 0, 0, 1]
 pose21:
@@ -142,7 +142,7 @@ pose21:
   map_y: 23.59829940795898
   heading: 86.44470037648345
   vel: 0.3
-  caption: "A0012"
+  caption: "A013"
   action0: ["act0", -1, -42, 5]
   action1: ["act1", 0, 0, 1]
 pose22:
@@ -162,7 +162,7 @@ pose24:
   map_y: 25.4426383972168
   heading: 86.15041332808447
   vel: 0.3
-  caption: "A0013"
+  caption: "A014"
   action0: ["act0", -1, -50, 5]
   action1: ["act1", 0, 0, 1]
 pose25:
@@ -248,7 +248,7 @@ pose38:
   map_y: 31.70655281066895
   heading: 87.91590248135471
   vel: 0.3
-  caption: "A0014"
+  caption: "A015"
   action0: ["act0", -2, -66, 5]
   action1: ["act1", 0, 0, 1]
 pose39:
@@ -262,7 +262,7 @@ pose40:
   map_y: 33.08713912963867
   heading: 77.48836863693015
   vel: 0.3
-  caption: "A0015"
+  caption: "A016"
   action0: ["act0", -1, -56, 5]
   action1: ["act1", 0, 0, 1]
 pose41:
@@ -282,7 +282,7 @@ pose43:
   map_y: 34.33940658569336
   heading: 86.64481945501349
   vel: 0.3
-  caption: "A0016"
+  caption: "A017"
   action0: ["act0", -1, -48, 5]
   action1: ["act1", 0, 0, 1]
 pose44:
@@ -290,7 +290,7 @@ pose44:
   map_y: 35.67524719238281
   heading: 87.8714315750147
   vel: 0.3
-  caption: "A0017"
+  caption: "A018"
   action0: ["act0", -1, -47, 5]
   action1: ["act1", 0, 0, 1]
 pose45:
@@ -322,7 +322,7 @@ pose49:
   map_y: 39.8337287902832
   heading: 94.78574439048496
   vel: 0.3
-  caption: "A0018"
+  caption: "A019"
   action0: ["act0", -1, -73, 5]
   action1: ["act1", 0, 0, 1]
 pose50:
@@ -336,7 +336,7 @@ pose51:
   map_y: 40.78998565673828
   heading: 83.3115511433918
   vel: 0.3
-  caption: "A0019"
+  caption: "A020"
   action0: ["act0", -1, -55, 5]
   action1: ["act1", 0, 0, 1]
 pose52:
@@ -350,7 +350,7 @@ pose53:
   map_y: 42.07706451416016
   heading: 82.98065185252985
   vel: 0.3
-  caption: "A0020"
+  caption: "A021"
   action0: ["act0", -2, -43, 5]
   action1: ["act1", 0, 0, 1]
 pose54:
@@ -376,7 +376,7 @@ pose57:
   map_y: 45.17387771606445
   heading: 69.9947974955619
   vel: 0.3
-  caption: "A0021"
+  caption: "A022"
   action0: ["act0", -10, -29, 5]
   action1: ["act1", 0, 0, 1]
 pose58:
@@ -390,7 +390,7 @@ pose59:
   map_y: 46.56536102294922
   heading: 75.62599158068149
   vel: 0.3
-  caption: "A0022"
+  caption: "A023"
   action0: ["act0", -1, 1, 5]
   action1: ["act1", 0, 0, 1]
 pose60:

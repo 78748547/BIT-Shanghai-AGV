@@ -1,0 +1,57 @@
+accordingPathdir: false
+onlyAkm: false
+# next_path: path3
+pose0:
+  map_x: 2.664862251281738
+  map_y: 12.38094711303711
+  heading: 88.85688276867317
+  vel: 0.2
+  caption: ""
+pose1:
+  map_x: 2.632422065734863
+  map_y: 12.0006742477417
+  heading: 80.77402354806571
+  vel: 0.2
+  caption: ""
+pose2:
+  map_x: 2.497880077362061
+  map_y: 11.57602882385254
+  heading: 68.58369619836334
+  vel: 0.2
+  caption: ""
+pose3:
+  map_x: 2.233513689041138
+  map_y: 11.24669933319092
+  heading: 50.38639653082331
+  vel: 0.2
+  caption: ""
+pose4:
+  map_x: 1.754182934761047
+  map_y: 10.99806118011475
+  heading: 32.12542866301546
+  vel: 0.2
+  caption: ""
+pose5:
+  map_x: 1.561887502670288
+  map_y: 10.76958274841309
+  heading: 61.07706937806958
+  vel: 0.2
+  caption: ""
+pose6:
+  map_x: 1.441263437271118
+  map_y: 10.26389312744141
+  heading: 87.28464486283154
+  vel: 0.2
+  caption: ""
+pose7:
+  map_x: 1.424972772598267
+  map_y: 9.799243927001953
+  heading: 89.45002246747634
+  vel: 0.2
+  caption: ""
+pose8:
+  map_x: 1.447488784790039
+  map_y: 9.444573402404785
+  heading: 90.4746698400518
+  vel: 0.2
+  caption: ""
