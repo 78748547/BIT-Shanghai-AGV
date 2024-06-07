@@ -337,6 +337,23 @@ namespace rviz_gui
             // printf("%d \n",cur_task.path.size());
         }
 
+        // 最后点是home，路径点正序不变
+        bool path_positive=(cur_task.path.back().caption=="HOME");
+        if(path_positive)
+        {
+            // printf("%d ",cur_task.path.size());
+            vector<mqtt_comm::path_point>  tmp_path=cur_task.path;
+            cur_task.path.clear();
+            for(int i=0; i<tmp_path.size(); i++)
+            {
+                
+                tmp_path[i].actions.clear();
+                cur_task.path.push_back(tmp_path[i]);
+            }
+            // printf("%d \n",cur_task.path.size());
+        }
+
+
         //  清除所有任务，倒数第二点加上充电任务
         int n=cur_task.path.size();
         // cur_task.path[n-2].actions.clear();

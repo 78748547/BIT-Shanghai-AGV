@@ -6,7 +6,7 @@ pose0:
   map_y: 0.83
   heading: 179.5384715200287
   vel: 0.3
-  caption: HOME
+  # caption: HOME
 pose1:
   map_x: 0.1
   map_y: 0.83

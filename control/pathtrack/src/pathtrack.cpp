@@ -196,13 +196,16 @@ void TPathTrack::UpdateCtrParam(float vel) //  根据速度规划预瞄点和转
         aim_range = 2, steering_property = 1.2;
     else if (vel > 0.5)
         aim_range = 2, steering_property = 1.5;        
-    else if (vel > 0.4)
+    else if (fabs(vel) > 0.4)
         aim_range = 1.5, steering_property = 2;       
-    else if (vel > 0.2)
+    else if (fabs(vel) > 0.2)
         aim_range = 1.0, steering_property = 2.5;   
     else 
         // aim_range = 1, steering_property = 3;
         aim_range = 0.5, steering_property = 2;
+    
+    
+    
     if (cur_carstate.turnmode == 4)  aim_range=3;
 
     // printf("range=%.2f\n",aim_range);
@@ -255,7 +258,7 @@ void TPathTrack::Run() //  主运行函数
     std_msgs::String str_msg;
     str_msg.data=move_dir;
     movedir_pub.publish(str_msg);
-    
+    // ROS_INFO("move_dir=%s",move_dir.c_str());    
     track_angle_err=GetAimAngleErr(aimpoint, move_dir);
     std_msgs::Float32 float_msg;
     float_msg.data=track_angle_err;

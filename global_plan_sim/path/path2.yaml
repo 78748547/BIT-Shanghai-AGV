@@ -6,7 +6,7 @@ pose0:
   map_y: 9.444573402404785
   heading: 90.4746698400518
   vel: 0.2
-  caption: ""
+  # caption: HOME
 pose1:
   map_x: 1.424972772598267
   map_y: 9.799243927001953
@@ -54,4 +54,24 @@ pose8:
   map_y: 12.38094711303711
   heading: 88.85688276867317
   vel: 0.2
+  caption: ""
+pose9:
+  map_x: 2.585455656051636
+  map_y: 12.39766407012939
+  heading: 73.82492473093455
+  vel: 0.2
+  caption: ""
+pose10:
+  map_x: 2.615669965744019
+  map_y: 12.75981845855713
+  heading: 85.23604952905164
+  vel: 0.2
+  caption: "A008"
+  action0: ["act0", -1, -8, 5]
+  action1: ["act1", 0, 0, 1]
+pose11:
+  map_x: 2.725077152252197
+  map_y: 13.38162136077881
+  heading: 83.36675607146744
+  vel: 0.3
   caption: ""

@@ -205,21 +205,24 @@ void FindNearestPointInPath(nav_msgs::Path path, geometry_msgs::PointStamped poi
 string CheckMoveDir(nav_msgs::Path path, int id)
 {
     string move_dir="";
+    
     if (path.poses.size()<2 || id+1>=path.poses.size())  return move_dir;
+    // printf("path.poses.size():%d",path.poses.size());
 
     geometry_msgs::PoseStamped p1 = path.poses[0];
     geometry_msgs::PoseStamped p2 = path.poses[1];
     float pose_angle = GetYawFromPose(p1);
     float path_angle = GetAngleByPoints(p1.pose.position, p2.pose.position);
     float anglex = (path_angle - pose_angle) * 180 / M_PI;
-
+    // printf("anglex:%f",anglex);
     // printf("%.2f %.2f %.2f\n", pose_angle * 180 / M_PI, path_angle * 180 / M_PI,  anglex);
 
     if (anglex > 180)  anglex -= 360;
     else if (anglex < -180)  anglex += 360;
 
-    if (fabs(anglex) > 160)   move_dir="back";  // ref_speed = -fabs(ref_speed)   
-    else if (abs(anglex) < 20)   move_dir="front";  // ref_speed = fabs(ref_speed),
+    if (fabs(anglex) > 140)   move_dir="back";  // ref_speed = -fabs(ref_speed)   
+    else if (abs(anglex) < 40)   move_dir="front";  // ref_speed = fabs(ref_speed),
+    
     else if (fabs(anglex + 90) < 20)  move_dir="right"; //  ref_speed = -fabs(ref_speed)
     else if (fabs(anglex - 90) < 20)  move_dir="left";  // ref_speed = fabs(ref_speed)
 

@@ -49,7 +49,7 @@ pose7:
   heading: -91.60350036476717
   vel: 0.2
   caption: "A024"
-  action0: ["act0", -1, -50, 5]
+  action0: ["act0", -1, -48, 5]
   action1: ["act1", 0, 0, 1]
 pose8:
   map_x: 9.777512550354004
@@ -83,7 +83,7 @@ pose12:
   heading: -89.88423064626447
   vel: 0.3
   caption: "A026"
-  action0: ["act0", -2, -32, 5]
+  action0: ["act0", -3, -31, 5]
   action1: ["act1", 0, 0, 1]
 pose13:
   map_x: 9.663637161254883
@@ -97,7 +97,7 @@ pose14:
   heading: -92.19117105521093
   vel: 0.3
   caption: "A027"
-  action0: ["act0", -2, -39, 5]
+  action0: ["act0", -3, -37, 5]
   action1: ["act1", 0, 0, 1]
 pose15:
   map_x: 9.665165901184082
@@ -105,7 +105,7 @@ pose15:
   heading: -93.18687056826406
   vel: 0.3
   caption: "A028"
-  action0: ["act0", -1, -30, 5]
+  action0: ["act0", -1, -28, 5]
   action1: ["act1", 0, 0, 1]
 pose16:
   map_x: 9.659509658813477
@@ -125,5 +125,5 @@ pose18:
   heading: -92.96149496800312
   vel: 0.3
   caption: "A029"
-  action0: ["act0", -1, -27, 5]
+  action0: ["act0", -1.5, -25.5, 5]
   action1: ["act1", 0, 0, 1]

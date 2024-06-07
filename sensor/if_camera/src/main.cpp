@@ -76,6 +76,8 @@ int main(int argc, char **argv)
 	usleep(2000);
     player_widget_1->StartTemperatureMeasurement();
 	Mat infrared_image;
+	Mat my_image;
+
 
 	char aveTempBuffer[20], aveTempBuffer2[20];
 	std::string aveTempStr, aveTempStr2;
@@ -101,7 +103,8 @@ int main(int argc, char **argv)
 	        else
 		       std::cout<<"Can't open the file!"<<std::endl;
 
-			imwrite(path+"/if.jpg", infrared_image);   
+			imwrite(path+"/if.jpg", infrared_image);
+			// imwrite(path+"/myif.jpg", my_image);   
 			// ROS_INFO("path=%s if saved", (path+"/if_temperature.txt").c_str());
 		}
         work_state=new_work_state;
@@ -109,8 +112,11 @@ int main(int argc, char **argv)
 		// printf("max info temp:%.2f,x=%d,y=%d\n",player_widget_1->maxPoint->temp_,player_widget_1->maxPoint->x,player_widget_1->maxPoint->y);
         // printf("ave info ,player_widget_1->minPoint->x,player_widget_1->minPoint->ytemp:%.2f,x=%d,y=%d\n",player_widget_1->minPoint->temp_ );
 		cv::cvtColor(player_widget_1->srcdata,infrared_image,cv::COLOR_RGB2BGR);
+		cv::cvtColor(player_widget_1->srcdata,my_image,cv::COLOR_RGB2BGR);
 
 		cv::flip(infrared_image,infrared_image,0);  //翻转图像
+		cv::flip(my_image,my_image,0);
+		cv::flip(my_image,my_image,1);
 
 		cv::circle(infrared_image,cv::Point(player_widget_1->maxPoint->x,infrared_image.rows-player_widget_1->maxPoint->y),2,cv::Scalar(255,255,255),2);
 		cv::circle(infrared_image,cv::Point(player_widget_1->maxPoint2->x,infrared_image.rows-player_widget_1->maxPoint2->y),2,cv::Scalar(255,255,255),2);
